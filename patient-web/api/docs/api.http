@@ -1,0 +1,18 @@
+###
+POST http://localhost:3001/api/patient
+
+### create appointment
+POST http://localhost:3001/api/appointment/
+Content-Type: application/json
+
+{
+    "patient": 14,
+    "patientName": "John Doe",
+    "patientContact": "1234567890",
+    "doctorName": 1,
+    "date": "2020-01-01",
+    "time": "10:00:00"
+}
+
+### get approved appointments
+GET http://localhost:3001/api/appointment/approved/142

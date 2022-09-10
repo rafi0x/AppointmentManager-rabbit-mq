@@ -1,0 +1,15 @@
+### get pendding list
+GET http://localhost:3000/api/appointment/pendding
+
+### update status
+PUT http://localhost:3000/api/appointment/update
+Content-Type: application/json
+
+{
+    "_id": "6301fbb27189717400a0392e",
+    "patient": 2,
+    "doctorName": "1",
+    "date": "2020-01-01T00:00:00.000Z",
+    "time": "10:00:00",
+    "status": "approved"
+}
